@@ -1,0 +1,14 @@
+# robots.txt para https://www.vacuumpro.com.br/
+
+# Informa a todos os rastreadores da web para seguirem as regras abaixo
+User-agent: *
+
+# Permite que todos os rastreadores acessem todas as partes do site
+Disallow:
+
+# Regras específicas para o rastreador "BadBot"
+User-agent: BadBot
+Disallow: /admin/
+
+# Indica a localização do arquivo de sitemap do site
+Sitemap: https://www.vacuumpro.com.br/sitemap.xml
